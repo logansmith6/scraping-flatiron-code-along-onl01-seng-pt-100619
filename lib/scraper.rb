@@ -21,8 +21,8 @@ class Scraper
     Nokogiri::HTML(html)
   end
 
-  def get_courses 
+  def get_courses
     get_page.css("posts-holder")
-  end 
+  end
 
 end

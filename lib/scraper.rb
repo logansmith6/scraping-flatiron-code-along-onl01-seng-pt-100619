@@ -34,7 +34,7 @@ class Scraper
       new_course.schedule = post.css("date").text
       new_course.description = post.css("p").text
     end
-    get_courses 
+    get_courses
   end
 
 end
